@@ -2,7 +2,7 @@
   "name": "sachin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mehtaanshul.github.io/sachinanalysis",
+  "homepage": "http://www.anshulmehta.tech/SachinAnalysis/",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
