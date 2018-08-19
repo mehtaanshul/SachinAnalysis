@@ -32,7 +32,7 @@ class BarSeries1 extends Component {
           <YAxis title="Runs"/>
           <VerticalBarSeries data={data}/>
         </FlexibleXYPlot>
-        <p>RUNS BY SACHIN IN ALL THE ODI'S IN THE YEAR 1998 (XAxis - Match number, YAxis - Runs scored)</p>
+        <small>RUNS BY SACHIN IN ALL THE ODI'S IN THE YEAR 1998 (XAxis - Match number, YAxis - Runs scored)</small>
       </div>
     );
   }

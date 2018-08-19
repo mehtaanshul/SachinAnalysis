@@ -5,14 +5,18 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-md Header">
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" href="/overall">Overall</a>
-              </li>
-            </ul>
-          </div>
+        <nav className="navbar navbar-expand-md fixed-top Header">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <button className="btn btn-link" onClick={() => this.props.scrollto("home")}>HOME</button>
+            </li>
+            <li className="nav-item">
+              <button className="btn btn-link" onClick={() => this.props.scrollto("overall")}>OVERALL  ANAYLYSIS</button>
+            </li>
+            <li className="nav-item">
+              <button className="btn btn-link" onClick={() => this.props.scrollto("odi")}>ODI</button>
+            </li>
+          </ul>
         </nav>
       </div>
     );

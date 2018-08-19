@@ -10,6 +10,12 @@ class ODI extends Component {
     };
   }
 
+
+  scrollOnClick(){
+    var element = document.getElementById("odi");
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
   render() {
     return (
       <div>

@@ -11,8 +11,7 @@ class ODI extends Component {
     this.onChange = this.onChange.bind(this);
   }
   onChange(e){
-    this.state[e.target.name] = e.target.value;
-    this.setState(this.state);
+    this.setState({ [e.target.name]: e.target.value });
   }
 
   render() {
