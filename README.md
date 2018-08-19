@@ -1,6 +1,6 @@
 # SachinAnalysis
 To Run 
 Clone this repo
-Go into the directory
+Go into the directory in terminal
 Run -> yarn
-Run -> yarn start
+then run -> yarn start
