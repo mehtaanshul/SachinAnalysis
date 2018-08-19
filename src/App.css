@@ -1,0 +1,43 @@
+.sachin-app {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Header {
+  height: 42px;
+  background-color: #333;
+}
+
+.Header a {
+  color: #C9C9C9;
+}
+
+#overall {
+  padding: 36px;
+}
+
+#overall .row {
+  align-items: center;
+}
+
+#odi {
+  padding: 36px;
+  align-items: center;
+  justify-content: center;
+}
+#odi #heading {
+  margin-bottom: 92px;
+}
+
+.line-series p{
+  text-align: center;
+}
+
+.Banner {
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
